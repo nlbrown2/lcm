@@ -271,7 +271,6 @@ function(lcm_wrap_types)
     set(_package "")
     set(_outputs "")
     set(_package_dir ".")
-    set(_package_pre "")
     # Read type definition
     file(READ ${_lcmtype} _text)
     # Strip comments
